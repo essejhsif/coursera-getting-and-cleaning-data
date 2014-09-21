@@ -73,8 +73,9 @@ angle(): Angle between to vectors.
 
 ####Then the following steps were applied for cleaning the data:
 
-- Variables were labeled based on featuers.txt
-- The mean and standard deviation was found
+- The data is first read in and then merged
+- Variables were labeled based on features.txt
+- The mean and standard deviation were then found
 - Intermediate data set including variables with labels that contain mean and standard deviation(std) in their names
 - Activity names were then assigned
 - Activity values were recoded with descriptive names according to activity_labels.txt
