@@ -16,6 +16,12 @@ The following steps were taken to prepare the data set according to project requ
 
 Additionally, a number of files in the train directory are included. This is in the 'Inertial Signals' folder. 
 
+###Variables
+
+- Subject : The subject ID. This variable comes from subject_train.txt and subject_test.txt files.
+- Activity : The activity as a factor. This variable comes from y_train.txt and y_test.txt files
+- All mean measurements in the form ID-(mean|std)[-X|Y|Z], e.g fBodyAcc-mean-X, fBodyBodyGyroMag-std. The original measurements come from X_train.txt and X_test.txt.
+
 ###Raw Data Collection
 
 The following description were taken from features.txt that accompanied the data set:
