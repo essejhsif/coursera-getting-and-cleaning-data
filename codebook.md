@@ -50,16 +50,17 @@ angle(): Angle between to vectors.
 
 The following steps were taken to prepare the data set according to project requirements:
 - created one features data set from the training and test sets
-  - X_train.txt and X_test.txt were combined
-    - subject_train.txt and subject_test.txt were combined
-      - y_train.txt and y_test.txt were combined
-        - variables were labeled according to features.txt
-	- extracted mean and standard deviation records for each measurement
-	  - intermediate data set including variables with labels that contain mean and standard deviation(std) in their names
-	  - assigned descriptive activity names
-	    - activity values were recoded with descriptive names according to activity_labels.txt
-	    - labeled the data set with descriptive variable names
-	      - variable names were made more descriptive by using full words and removing dashes and parentheses
-	      - created a second, independent tidy data set with the average of each variable for each activity and each subject
-	        - final dataset is saved as average_variables.txt
+- X_train.txt and X_test.txt were combined
+- subject_train.txt and subject_test.txt were combined
+- y_train.txt and y_test.txt were combined
+
+- variables were labeled according to features.txt
+- extracted mean and standard deviation records for each measurement
+- intermediate data set including variables with labels that contain mean and standard deviation(std) in their names
+- assigned descriptive activity names
+- activity values were recoded with descriptive names according to activity_labels.txt
+- labeled the data set with descriptive variable names
+- variable names were made more descriptive by using full words and removing dashes and parentheses
+- created a second, independent tidy data set with the average of each variable for each activity and each subject
+- final dataset is saved as average_variables.txt
 
