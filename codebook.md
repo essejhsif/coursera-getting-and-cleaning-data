@@ -70,8 +70,19 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
 ````
+####Steps
 
-####Then the following steps were applied for cleaning the data:
+The following steps take place in run_analysis.R:
+
+1. Read in and then merges the training and the test sets to create one data set
+2. Read in features data, extract only the measurements on the mean and standard deviation for each measurement
+3. Read the activity_labels and use only descriptive activity names 
+4. Get a list of current column labels and then tidy
+5. Find the mean for each subject/label and then create the tidy data set (tidy_data_set.txt)
+
+####Detailed Steps
+
+At a more detailed level, the following steps were applied for cleaning the data:
 
 - The data is first read in and then merged
 - Variables were labeled based on features.txt
