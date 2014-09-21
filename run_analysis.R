@@ -28,6 +28,4 @@ colnames(merged_data_mean_std) <- column_names
 # 5. Find the mean for each subject/label and then create the tidy data set (tidy_data.txt)
 result_data <- aggregate(merged_data_mean_std[, 3:ncol(merged_data_mean_std)],by=list(subject = merged_data_mean_std$subject, 
                          label = merged_data_mean_std$label),mean)
-
-# Write the data
 write.table(format(result_data, scientific=T), "tidy_data.txt", row.names=F, col.names=F, quote=2)
