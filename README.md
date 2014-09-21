@@ -14,7 +14,7 @@ The submissions includes:
 - A tidy data set
 - run_analysis.R
 - A codebook
-- The README.md file
+- README.md file
 
 1. Read in and then merges the training and the test sets to create one data set
 2. Read in features data, extract only the measurements on the mean and standard deviation for each measurement
