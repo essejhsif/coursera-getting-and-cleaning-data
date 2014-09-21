@@ -48,19 +48,34 @@ angle(): Angle between to vectors.
 ````
 ###Data cleanup:
 
-The following steps were taken to prepare the data set according to project requirements:
-- created one features data set from the training and test sets
-- X_train.txt and X_test.txt were combined
-- subject_train.txt and subject_test.txt were combined
-- y_train.txt and y_test.txt were combined
+The following steps were taken to prepare the data set according to project requirements. 
 
-- variables were labeled according to features.txt
-- extracted mean and standard deviation records for each measurement
-- intermediate data set including variables with labels that contain mean and standard deviation(std) in their names
-- assigned descriptive activity names
-- activity values were recoded with descriptive names according to activity_labels.txt
-- labeled the data set with descriptive variable names
-- variable names were made more descriptive by using full words and removing dashes and parentheses
-- created a second, independent tidy data set with the average of each variable for each activity and each subject
-- final dataset is saved as average_variables.txt
+####The data included:
+
+'README.txt'
+'features_info.txt': Shows information about the variables used on the feature vector
+'features.txt': List of all features
+'activity_labels.txt': Links the class labels with their activity names
+'train/X_train.txt': Training set
+'train/y_train.txt': Training labels
+'test/X_test.txt': Test set
+'test/y_test.txt': Test labels
+
+####Additionally, the following files were included for training: 
+
+'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis.
+'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.
+'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
+
+####Then the following steps were applied for cleaning the data:
+
+- Variables were labeled based on featuers.txt
+- The mean and standard deviation was found
+- Intermediate data set including variables with labels that contain mean and standard deviation(std) in their names
+- Activity names were then assigned
+- Activity values were recoded with descriptive names according to activity_labels.txt
+- Variable names had dashes and parantheses removed 
+- The second tidy data set was created with the average of each subject included
+- The final dataset is written to a file called tidy_data.txt 
 
