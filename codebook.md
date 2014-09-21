@@ -1,9 +1,7 @@
 
-###Data cleanup:
+###Data
 
-The following steps were taken to prepare the data set according to project requirements. 
-
-####The data included:
+The data included:
 
 - README.txt
 - features_info.txt : Shows information about the variables used on the feature vector
@@ -70,7 +68,8 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
 ````
-####Steps
+
+###Steps
 
 The following steps take place in run_analysis.R:
 
@@ -80,7 +79,7 @@ The following steps take place in run_analysis.R:
 4. Get a list of current column labels and then tidy
 5. Find the mean for each subject/label and then create the tidy data set (tidy_data_set.txt)
 
-####Detailed Steps
+###Detailed Steps
 
 At a more detailed level, the following steps were applied for cleaning the data:
 
