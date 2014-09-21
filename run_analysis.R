@@ -20,7 +20,7 @@ merged_data_mean_std <- merged_data[, c(1, 2, features_mean_std$V1+2)]
 labels <- read.table("activity_labels.txt", stringsAsFactors=FALSE)
 merged_data_mean_std$label <- labels[merged_data_mean_std$label, 2]
 
-# 4. Get a list of current column labels and then tidy
+# 4. Get a list of current column labels and then tidy up the apperance
 column_names <- c("subject", "label", features_mean_std$V2)
 column_names <- tolower(gsub("[^[:alpha:]]", "",column_names))
 colnames(merged_data_mean_std) <- column_names
