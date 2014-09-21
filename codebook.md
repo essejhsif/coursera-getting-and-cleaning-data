@@ -90,6 +90,12 @@ At a more detailed level, the following steps were applied for cleaning the data
 - Activity names were then assigned
 - Activity values were recoded with descriptive names according to activity_labels.txt
 - Variable names had dashes and parantheses removed 
-- The second tidy data set was created with the average of each subject included
+- The aggreate dataset was created with the average of each subject included
 - The final dataset is written to a file called tidy_data.txt 
+
+###Background
+
+The following link is where the data was obtained and includes a full description :
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
