@@ -1,8 +1,6 @@
-###README.md
+This is my Github repository for the Coursera course 'Getting and Cleaning Data' project. 
 
-This is the Github repository for the Coursera course 'Getting and Cleaning Data' project. 
-
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
+The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
 
 #####A full description is available at the site where the data was obtained: 
 
@@ -16,9 +14,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The submissions includes:
 
-- A tidy data set
+- A tidy data set (tidy_data.txt)
 - run_analysis.R
-- A codebook
+- codebook.md file
 - README.md file
 
 ####Steps
