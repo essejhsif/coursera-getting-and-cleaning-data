@@ -1,3 +1,26 @@
+
+###Data cleanup:
+
+The following steps were taken to prepare the data set according to project requirements. 
+
+####The data included:
+
+'README.txt'
+'features_info.txt': Shows information about the variables used on the feature vector
+'features.txt': List of all features
+'activity_labels.txt': Links the class labels with their activity names
+'train/X_train.txt': Training set
+'train/y_train.txt': Training labels
+'test/X_test.txt': Test set
+'test/y_test.txt': Test labels
+
+####Additionally, the following files were included for training: 
+
+'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis.
+'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.
+'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
+
 ###Raw Data Collection
 
 The following description were taken from features.txt that accompanied the data set:
@@ -46,27 +69,6 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
 ````
-###Data cleanup:
-
-The following steps were taken to prepare the data set according to project requirements. 
-
-####The data included:
-
-'README.txt'
-'features_info.txt': Shows information about the variables used on the feature vector
-'features.txt': List of all features
-'activity_labels.txt': Links the class labels with their activity names
-'train/X_train.txt': Training set
-'train/y_train.txt': Training labels
-'test/X_test.txt': Test set
-'test/y_test.txt': Test labels
-
-####Additionally, the following files were included for training: 
-
-'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
-'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis.
-'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.
-'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
 ####Then the following steps were applied for cleaning the data:
 
