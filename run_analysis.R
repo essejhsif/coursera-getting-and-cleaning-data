@@ -25,7 +25,7 @@ column_names <- c("subject", "label", features_mean_std$V2)
 column_names <- tolower(gsub("[^[:alpha:]]", "",column_names))
 colnames(merged_data_mean_std) <- column_names
 
-# 5. Find the mean for each subject/label and then create the tidy data set (tidy_data_set.txt)
+# 5. Find the mean for each subject/label and then create the tidy data set (tidy_data.txt)
 result_data <- aggregate(merged_data_mean_std[, 3:ncol(merged_data_mean_std)],by=list(subject = merged_data_mean_std$subject, 
                          label = merged_data_mean_std$label),mean)
 
